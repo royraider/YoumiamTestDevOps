@@ -11,7 +11,7 @@ Good luck and Have fun ! :)
 Un fichier de log repertoriant des évenèments datés de différents services est géneré en continu par notre serveur. (log.txt)
 Nous avons besoin d'un moyen d'obtenir rapidement des informations sur ce fichier.
 ## Access direct
-0. Génerer un fichier log.txt à jour grace a la commande `php gen.php`
+0. Génerer un fichier log.txt à jour grace a la commande `php gen.php` (date, service, type, niveau, message)
 1. Permettre d'obtenir via le shell un rapport (nombre) d'evenement survenu:
    1. Dans l'heure précédente
    2. Dans la journée précédente
