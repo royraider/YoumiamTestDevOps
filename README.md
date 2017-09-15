@@ -22,6 +22,6 @@ Nous avons besoin d'un moyen d'obtenir rapidement des informations sur ce fichie
 3. Permettre d'obtenir via le shell un rapport (liste) d'evenement survenur plus d'x fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
 ## Automatisation
 1. expliquer et fournir une solution pour pour obtenir un rapport ecrit dans un fichier toutes les heures contenant pour chaque service le nombre d'erreur par type arriver dans l'heure ayant un niveau superieur à 3
-2. expliquer et fournir une solution pour obtenir des alertes dans un fichier toutes les heures listant tout les evenements de l'heure precedante ayant eut lieux plus de 5fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
+2. expliquer et fournir une solution pour obtenir des alertes dans un fichier toutes les heures listant tout les evenements de l'heure precedante ayant eut lieux plus de 3fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
 ## Bonus
 Proposer une solution coder pour envoyer les rapports automatisés sur une messagerie Slack ou via Email.
