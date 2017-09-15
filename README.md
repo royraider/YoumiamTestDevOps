@@ -1,5 +1,5 @@
 ## Introduction
-Ceci est un simple test ayant pour but de tester les competences a repondre a un besoin operationel
+Ceci est un test ayant pour but de valider les competences à repondre à un besoin operationel.
 
 Nous serons avant tout attentif aux performances, à la scalabilité et à la propreté du code proposé.
 
@@ -8,18 +8,20 @@ Good luck and Have fun ! :)
 `PS: Si une question n'est pas faite, pensez à laisser une petit commentaire pour donner votre idée. `
 
 ## Mise en situation
-Un fichier de log repertorian des evenement dater de diferant service est generer en continu par notre serveur. (log.txt)
-Nous avons besoin d'un moyen d'obtenir rapidement des informations sur ce fichier
+Un fichier de log repertoriant des évenèments datés de différents services est géneré en continu par notre serveur. (log.txt)
+Nous avons besoin d'un moyen d'obtenir rapidement des informations sur ce fichier.
 ## Access direct
+0. Génerer un fichier log.txt à jour grace a la commande `php gen.php`
 1. Permettre d'obtenir via le shell un rapport (nombre) d'evenement survenu:
-   1. Dans l'heure precedente
-   2. Dans la journee precedente
+   1. Dans l'heure précédente
+   2. Dans la journée précédente
 2. Permettre d'obtenir via le shell un rapport (nombre) d'evenement survenu:
-   1. En selectionnant un ou plusieurs services de son choix
-   2. En selectionnant un type d'evenement
-3. Permettre d'obtenir via le shell un rapport (liste) d'evenement survenur plus d'x fois (meme evenement)
+   1. En sélectionnant un ou plusieurs services de son choix
+   2. En sélectionnant un type d'evenement
+   3. En définissant un niveau minimum (1 a 10)
+3. Permettre d'obtenir via le shell un rapport (liste) d'evenement survenur plus d'x fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
 ## Automatisation
-1. expliquer et fournir une solution pour pour obtenir un rapport ecrit dans un fichier toutes les heures rapportant le nombre d'evenements de l'heure precedante pour chaque service et type.
-2. expliquer et fournir une solution pour obtenir des alerte dans un fichier toutes les heures listant tout les evenements de l'heure precedante ayant eut lieux plus de 5fois.
+1. expliquer et fournir une solution pour pour obtenir un rapport ecrit dans un fichier toutes les heures contenant pour chaque service le nombre d'erreur par type arriver dans l'heure ayant un niveau superieur à 3
+2. expliquer et fournir une solution pour obtenir des alertes dans un fichier toutes les heures listant tout les evenements de l'heure precedante ayant eut lieux plus de 5fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
 ## Bonus
-Proposer une solution coder pour envoyer les rapport automatiser sur une messagerie Slack ou via Email.
+Proposer une solution coder pour envoyer les rapports automatisés sur une messagerie Slack ou via Email.
