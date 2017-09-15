@@ -14,11 +14,11 @@ Nous avons besoin d'un moyen d'obtenir rapidement des informations sur ce fichie
 0. Génerer un fichier log.txt à jour grace a la commande `php gen.php`
 1. Permettre d'obtenir via le shell un rapport (nombre) d'evenement survenu:
    1. Dans l'heure précédente
-   2. Dans la journée précédente
+   2. Dans la journée précédente
 2. Permettre d'obtenir via le shell un rapport (nombre) d'evenement survenu:
    1. En sélectionnant un ou plusieurs services de son choix
    2. En sélectionnant un type d'evenement
-   3. En définissant un niveau minimum (1 a 10)
+   3. En définissant un niveau minimum (1 a 10)
 3. Permettre d'obtenir via le shell un rapport (liste) d'evenement survenur plus d'x fois (meme evenement Service-Type-Message, en ignorant le niveau d'event)
 ## Automatisation
 1. expliquer et fournir une solution pour pour obtenir un rapport ecrit dans un fichier toutes les heures contenant pour chaque service le nombre d'erreur par type arriver dans l'heure ayant un niveau superieur à 3
